@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Opportunity Evidence Scout</title>
+  <style>
+    body {
+      max-width: 780px;
+      margin: 48px auto;
+      padding: 0 20px;
+      font: 17px/1.6 system-ui, sans-serif;
+      color: #24222a;
+    }
+    h1, h2 { line-height: 1.25; }
+    section { margin-top: 42px; }
+    .notice {
+      padding: 16px;
+      background: #f5f3f7;
+      border-left: 4px solid #665474;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Opportunity Evidence Scout</h1>
+
+    <p>
+      Opportunity Evidence Scout is a private, limited-scale,
+      read-only market research prototype.
+    </p>
+
+    <p>
+      Subject to Etsy's approval, it will use only Etsy Open API v3
+      to query a small number of public active listings and generate
+      aggregate supply and price indicators.
+    </p>
+
+    <section>
+      <h2>Operation and scope</h2>
+      <ul>
+        <li>Manually triggered at most once per week.</li>
+        <li>One API request per configured search term.</li>
+        <li>Up to 10 listings per term, without pagination.</li>
+        <li>No webpage scraping or browser automation.</li>
+        <li>No OAuth or private Etsy member data.</li>
+        <li>No listing images or full descriptions.</li>
+        <li>No order, buyer, message, credential, or contact data.</li>
+        <li>No resale or redistribution of Etsy data.</li>
+        <li>No use of Etsy data to train AI or machine-learning models.</li>
+      </ul>
+    </section>
+
+    <section id="privacy">
+      <h2>Privacy and data retention</h2>
+
+      <p>
+        The application requests only the minimum public listing fields
+        required for its approved purpose: listing and shop identifiers,
+        title, URL, price and currency, taxonomy, tags, listing type,
+        number of favorers, and creation or modification timestamps.
+      </p>
+
+      <p>
+        Workflow artifacts automatically expire after 14 days.
+        Raw Etsy content is not published. Aggregate indicators may be
+        retained for internal evaluation.
+      </p>
+
+      <p>
+        This website has no account system, forms, advertising trackers,
+        or application analytics.
+      </p>
+    </section>
+
+    <section id="terms">
+      <h2>Application terms</h2>
+
+      <p>
+        This application is provided by
+        <strong>Pedro Devincenzi Ferreira</strong> solely as a limited research
+        prototype. It is not provided, endorsed, or certified by Etsy.
+      </p>
+
+      <p class="notice">
+        DISCLAIMER: THIS APPLICATION IS SOLELY PROVIDED BY
+        YOUR LEGAL NAME (THE “APPLICATION DEVELOPER”).
+        YOU ACKNOWLEDGE THAT ETSY, INC. AND ITS AFFILIATES ARE NOT
+        THE APPLICATION DEVELOPER, DO NOT PROVIDE THE APPLICATION
+        SERVICE, AND MAKE NO WARRANTIES OF ANY KIND WITH RESPECT TO
+        THE APPLICATION OR DATA ACCESSED THROUGH IT.
+      </p>
+    </section>
+
+    <section>
+      <h2>Support</h2>
+      <p>
+        Contact:
+        <a href="mailto:ferreira.pd@hotmail.com">ferreira.pd@hotmail.com</a>
+      </p>
+    </section>
+
+    <section class="notice">
+      <p>
+        The term “Etsy” is a trademark of Etsy, Inc.
+        This application uses the Etsy API but is not endorsed or
+        certified by Etsy, Inc.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
